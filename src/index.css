@@ -117,7 +117,7 @@ button:focus-visible {
   background-color: rgb(204, 236, 247);
 }
 
-.operator{
+.operator, .parentheses{
   background-color: rgb(213, 213, 213);
 }
 

@@ -11,8 +11,8 @@ function Keyboard({onDisplay}: Props) {
   }
   return (
     <div className="keyboard-container" onClick={onClick}>
-        <div className="item operator">(</div>
-        <div className="item operator">)</div>
+        <div className="item parentheses">(</div>
+        <div className="item parentheses">)</div>
         <div className="item operator">%</div>
         <div className="item operator">AC</div>
         <div className="item number">7</div>
@@ -22,7 +22,7 @@ function Keyboard({onDisplay}: Props) {
         <div className="item number">4</div>
         <div className="item number">5</div>
         <div className="item number">6</div>
-        <div className="item operator">x</div>
+        <div className="item operator">*</div>
         <div className="item number">1</div>
         <div className="item number">2</div>
         <div className="item number">3</div>
